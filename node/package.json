@@ -1,0 +1,12 @@
+{
+  "name": "xai-zt-p2p-node",
+  "version": "1.0.0",
+  "description": "Explainable AI-Driven Zero-Trust P2P Node Simulator",
+  "main": "peer_simulator.js",
+  "scripts": {
+    "start": "node peer_simulator.js",
+    "sim": "node peer_simulator.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

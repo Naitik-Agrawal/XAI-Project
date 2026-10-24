@@ -1,0 +1,27 @@
+{
+  "name": "xai-zt-p2p",
+  "version": "1.0.0",
+  "description": "An Explainable AI-Driven Zero-Trust Framework for Secure and Adaptive Cross-Platform P2P File Sharing",
+  "main": "peer_simulator.js",
+  "scripts": {
+    "start": "node node/peer_simulator.js",
+    "sim": "node node/peer_simulator.js",
+    "dashboard": "node server.js",
+    "train": "python python/train_model.py",
+    "explain": "python python/explain_model.py",
+    "benchmark": "python python/benchmark.py",
+    "benchmark:models": "python python/benchmark_models.py",
+    "p2p:live": "node node/p2p_live_node.js --mode loopback --attack none",
+    "p2p:attack": "node node/p2p_live_node.js --mode loopback --attack tamper",
+    "p2p:dos": "node node/p2p_live_node.js --mode loopback --attack dos"
+  },
+  "keywords": [
+    "p2p",
+    "zero-trust",
+    "explainable-ai",
+    "cybersecurity",
+    "networking"
+  ],
+  "author": "",
+  "license": "MIT"
+}

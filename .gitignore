@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+*.pyc
+node/node_modules/
+models/*.joblib
+data/p2p_behavior.csv
+results/*.png
+results/*.json
+results/*.txt
+results/*.csv

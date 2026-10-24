@@ -1,0 +1,16 @@
+[
+  "auth_failures",
+  "request_rate",
+  "transfer_rate",
+  "failed_transfers",
+  "packet_anomaly_score",
+  "connection_duration_s",
+  "discovery_rate",
+  "unauthorized_requests",
+  "transfer_size_deviation",
+  "retry_rate",
+  "integrity_failures",
+  "historical_reputation",
+  "session_age_s",
+  "device_consistency"
+]
